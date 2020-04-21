@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+html * {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header img {
+    height: 50px;
+    width: 65px;
+    padding: 10px;
+}
+
+body {
+    background-color: white;
+}
+
+section {
+    background-color: rgb(248, 248, 248);
+    min-height: 300px;
+    width: 400px;
+    margin: 60px auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.267);
+}
+
+section h1 {
+    padding: 20px;
+    padding-bottom: 30px;
+    color:rgb(0, 195, 255) ;
+}
+
+section button {
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(0, 195, 255);
+    color: white;
+    font-weight: bold;
+    border: 1px solid rgb(170, 170, 170);
+    margin: 20px 65px;
+    
+}
+
+section button:hover {
+    background-color: rgb(0, 169, 221);
+}
+
+section a {
+    text-align: center;
+    padding: 10px;
+    line-height: 10px;
+    text-decoration: none;
+    color: rgb(124, 124, 124);
+    display: flex;
+    float: inline-end;
+    margin-left:57px;
+    font-size: 15px;
+}
+
+form {
+    text-align: center;
+}
+
+form input + input {
+    padding: 10px;
+    margin-top: 10px;
+    width: 250px;
+    border-radius: 10px;
+    border: 1px solid rgb(170, 170, 170);
+}
+
+form input {
+    padding: 10px;
+    width: 250px;
+    border-radius: 10px;
+    border: 1px solid rgb(170, 170, 170);
+}
